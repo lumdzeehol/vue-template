@@ -7,3 +7,18 @@
 
 ## HTTP请求
 采用axios作为网络请求工具，在`vue.config.js`文件中配置代理选项
+
+## Vant
+采用Vant UI组件库
+### 按需引入
+```
+import { Button } from 'vant';
+```
+### 导入所有组件
+```
+import Vue from 'vue';
+import Vant from 'vant';
+import 'vant/lib/vant-css/index.css';
+
+Vue.use(Vant);
+```
